@@ -22,8 +22,8 @@ When you write Terraform configurations, you specify which provider you want to 
 
 #### ex:
 provider "aws" {
-    region = ""
-    access_key = "" -- we need to variablise or add as env evariables
+    region = ""                                 
+    access_key = "" -- we need to variablise or add as env evariables                                                                            
     secrect_key = "" -- we need to variablise or add as env evariables
 }
 
