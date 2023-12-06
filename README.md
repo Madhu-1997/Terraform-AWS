@@ -21,10 +21,10 @@ The core Terraform workflow consists of three stages:
 When you write Terraform configurations, you specify which provider you want to use for the resources you are defining. Providers enable Terraform to manage resources in various environments. Some common providers include AWS, Azure, Google Cloud Platform (GCP), VMware, and many others.
 
 #### ex:
-provider "aws" {
+provider "aws" {                                                                                                                                 
     region = ""                                 
     access_key = "" -- we need to variablise or add as env evariables                                                                            
-    secrect_key = "" -- we need to variablise or add as env evariables
+    secrect_key = "" -- we need to variablise or add as env evariables                                                                           
 }
 
 
